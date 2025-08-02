@@ -9,13 +9,19 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       rel="stylesheet"
     />
-    <style>
+ <style>
       .scrollbar-hide::-webkit-scrollbar {
         display: none;
       }
       .scrollbar-hide {
         -ms-overflow-style: none;
         scrollbar-width: none;
+      }
+      .hover-zoom {
+        transition: transform 0.3s ease;
+      }
+      .hover-zoom:hover {
+        transform: scale(1.05);
       }
     </style>
   </head>
@@ -60,116 +66,152 @@
     </p>
   </div>
 </div>
-
-
-    <!-- Horizontal scroll logos -->
-    <section class="mt-2 px-2">
-      <div
-        class="flex space-x-2 overflow-x-auto scrollbar-hide py-2"
-        aria-label="Logos de servicios de streaming"
-      >
-        <img
-          class="flex-shrink-0 rounded w-24 h-14 object-cover"
-          src="https://storage.googleapis.com/a1aa/image/6b91df34-0292-4e65-74a6-b8194e0f0a14.jpg"
-          alt="Logo 1"
-        />
-        <img
-          class="flex-shrink-0 rounded w-24 h-14 object-cover"
-          src="https://storage.googleapis.com/a1aa/image/038b81b0-e4fa-4eff-fd6e-b2b04b1d7085.jpg"
-          alt="HBO Max"
-        />
-        <img
-          class="flex-shrink-0 rounded w-24 h-14 object-cover"
-          src="https://storage.googleapis.com/a1aa/image/aca2a4c9-b997-4115-c129-c2c76c1607d8.jpg"
-          alt="Disney Plus"
-        />
-        <img
-          class="flex-shrink-0 rounded w-24 h-14 object-cover"
-          src="https://storage.googleapis.com/a1aa/image/196e6509-e47e-4fa2-8eea-93276b72e680.jpg"
-          alt="Netflix"
-        />
-        <img
-          class="flex-shrink-0 rounded w-24 h-14 object-cover"
-          src="https://storage.googleapis.com/a1aa/image/c2a40e30-ad45-45ad-126f-1d5e87b19dcb.jpg"
-          alt="Star Plus"
-        />
+    <!--  stream scroll -->
+<section class="mt-4 px-4">
+  <h2 class="text-xl font-semibold mb-2">Servicios de Streaming</h2>
+  <div
+    class="overflow-x-auto scrollbar-hide pb-2"
+    aria-label="Logos de servicios de streaming"
+  >
+    <div class="flex gap-3 w-max">
+      <a href="https://soyestrellaoficial9.github.io/accion">
+        <img class="w-24 h-14 rounded object-cover hover-zoom" src="https://storage.googleapis.com/a1aa/image/196e6509-e47e-4fa2-8eea-93276b72e680.jpg" alt="Netflix" />
+      </a>
+        <a href="https://soyestrellaoficial9.github.io/familia">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://storage.googleapis.com/a1aa/image/aca2a4c9-b997-4115-c129-c2c76c1607d8.jpg" alt="Disney+" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/anime">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://storage.googleapis.com/a1aa/image/038b81b0-e4fa-4eff-fd6e-b2b04b1d7085.jpg" alt="HBO Max" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/series">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://i.vimeocdn.com/video/1590426600-b43c27725781caa7572d1f17045a2020b1ae8fe443c33a0f4536aa70fdb5fd2c-d?f=webp" alt="Prime Video" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/fantasia">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://media.sketchfab.com/models/62fe202cde4e4dc484b145fd02bea822/thumbnails/0c62ec8af689448d9759982f58809241/fb2438ff21a34e988aebc0a1f01cf5db.jpeg" alt="FOX" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/scify">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://www.pngmart.com/files/23/Apple-Tv-Logo-PNG-Photo.png" alt="Apple TV" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/cienciaficcion">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://cdn.mos.cms.futurecdn.net/UFo74BuGo7FYxhAE3DrWUP.jpg" alt="Paramount" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/animacion">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://i.pinimg.com/736x/db/18/e2/db18e25f9e18294e608ff51ba091f2b1.jpg" alt="Sony" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/romance">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://www.hollywoodreporter.com/wp-content/uploads/2012/01/new_universal_logo_a_l.jpg" alt="Universal" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/drama">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://www.budapestreporter.com/wp-content/uploads/2021/06/bpr-say-goodbye-to-the-old-warner-bros-logo-main.png" alt="Warner Bros" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/terror">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://assets.murphysmultiverse.com/uploads/2024/10/marvel-logo-design-history-and-evolution-kreafolk_50f7a4b8-dc53-495d-89bc-84c168382b61.jpg" alt="Marvel" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/misterio">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/03/DC-Comics-Logo.jpg" alt="DC Comics" />
+        </a>
+        <a href="https://soyestrellaoficial9.github.io/suspenso">
+          <img class="flex-shrink-0 w-24 h-14 rounded object-cover" src="https://i.ytimg.com/vi/XtxzYu0itFU/maxresdefault.jpg" alt="Lionsgate" />
+        </a>
       </div>
     </section>
-<!-- Horizontal scroll de categorías -->
-<section class="mt-4 px-2">
-  <div
-    class="flex space-x-3 overflow-x-auto scrollbar-hide py-2"
-    aria-label="Categorías de películas"
-  >
- <a href="https://soyestrellaoficial9.github.io/movies/" class="flex-shrink-0 bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-full text-sm font-medium transition">Movies</a>
-<a href="https://soyestrellaoficial9.github.io/series/" class="flex-shrink-0 bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Series</a>
-<a href="https://soyestrellaoficial9.github.io/accion/" class="flex-shrink-0 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Acción</a>
-<a href="https://soyestrellaoficial9.github.io/comedia/" class="flex-shrink-0 bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-full text-sm font-medium transition">Comedia</a>
-<a href="https://soyestrellaoficial9.github.io/familia/" class="flex-shrink-0 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">Infantil</a>
-<a href="https://soyestrellaoficial9.github.io/romance/" class="flex-shrink-0 bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">Romance</a>
-<a href="https://soyestrellaoficial9.github.io/terror/" class="flex-shrink-0 bg-gray-800 hover:bg-black text-white px-4 py-2 rounded-full text-sm font-medium transition">Terror</a>
-<a href="https://soyestrellaoficial9.github.io/accionaventure/" class="flex-shrink-0 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Action & Aventured</a>
-<a href="https://soyestrellaoficial9.github.io/aventura/" class="flex-shrink-0 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Aventura</a>
-<a href="https://soyestrellaoficial9.github.io/anime/" class="flex-shrink-0 bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Animes</a>
-<a href="https://soyestrellaoficial9.github.io/cienciaficcion/" class="flex-shrink-0 bg-rose-600 hover:bg-rose-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Ciencia Ficción</a>
-<a href="https://soyestrellaoficial9.github.io/crimen/" class="flex-shrink-0 bg-blue-700 hover:bg-blue-800 text-white px-4 py-2 rounded-full text-sm font-medium transition">Crimen</a>
-<a href="https://soyestrellaoficial9.github.io/documental/" class="flex-shrink-0 bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded-full text-sm font-medium transition">Documental</a>
-<a href="https://soyestrellaoficial9.github.io/drama/" class="flex-shrink-0 bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">Drama</a>
-<a href="https://soyestrellaoficial9.github.io/familia/" class="flex-shrink-0 bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Familia</a>
-<a href="https://soyestrellaoficial9.github.io/fantasia/" class="flex-shrink-0 bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Fantasia</a>
-<a href="https://soyestrellaoficial9.github.io/misterio/" class="flex-shrink-0 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Misterio</a>
-<a href="https://soyestrellaoficial9.github.io/musical/" class="flex-shrink-0 bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Musical</a>
-<a href="https://soyestrellaoficial9.github.io/scify/" class="flex-shrink-0 bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">Scifi-Fantasy</a>
-<a href="https://soyestrellaoficial9.github.io/suspenso/" class="flex-shrink-0 bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-medium transition">Suspenso</a>
-<a href="https://soyestrellaoficial9.github.io/western/" class="flex-shrink-0 bg-yellow-800 hover:bg-yellow-900 text-white px-4 py-2 rounded-full text-sm font-medium transition">Western</a>
 
-  </div>
-</section>
+
 
  <section class="px-4 mt-6">
   <h2 class="text-white text-base font-normal mb-2">Lo recomendado para ti</h2>
   <div class="flex overflow-x-auto space-x-3 scrollbar-hide pb-2">
-    <a href="__URL___" target="_blank" class="flex-shrink-0 w-48 md:w-64">
+    <a href="__URL___"  class="flex-shrink-0 w-48 md:w-64">
       <img src="https://image.tmdb.org/t/p/original/1xDev1aS6juHOuhpOIKKlczEdrW.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 1" />
     </a>
-    <a href="__URL___" target="_blank" class="flex-shrink-0 w-48 md:w-64">
+    <a href="__URL___"  class="flex-shrink-0 w-48 md:w-64">
       <img src="https://image.tmdb.org/t/p/original/tTY2UT0zkqLfVL7QK9qLbmm9zw3.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 2" />
     </a>
-    <a href="__URL___" target="_blank" class="flex-shrink-0 w-48 md:w-64">
+    <a href="__URL___"  class="flex-shrink-0 w-48 md:w-64">
       <img src="https://image.tmdb.org/t/p/original/wqEtdSkAhJkqpRaKSqvqqWVvrL7.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 3" />
     </a>
   </div>
 </section>
 
+<section class="px-4 mt-6">
+  <h2 class="text-white text-base font-normal mb-2">Netflix</h2>
+  <div class="flex overflow-x-auto space-x-3 scrollbar-hide pb-2">
+    
+    <a href="https://soyestrellaoficial9.github.io/accion/" class="relative flex-shrink-0 w-48 md:w-64">
+      <img src="https://image.tmdb.org/t/p/original/rME9z7Ft1mfQanuoGARFsU97P4e.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 1" />
+      <img src="https://images.icon-icons.com/2699/PNG/512/netflix_logo_icon_170919.png" 
+           alt="Netflix logo" 
+           class="absolute top-1 left-1 w-8 h-8 opacity-80" />
+    </a>
+
+    <a href="__URL___" class="relative flex-shrink-0 w-48 md:w-64">
+      <img src="https://image.tmdb.org/t/p/original/f8FaWGOR1k7MiOOybNPbnxCRfYx.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 2" />
+      <img src="https://images.icon-icons.com/2699/PNG/512/netflix_logo_icon_170919.png" 
+           alt="Netflix logo" 
+           class="absolute top-1 left-1 w-8 h-8 opacity-80" />
+    </a>
+
+    <a href="__URL___" class="relative flex-shrink-0 w-48 md:w-64">
+      <img src="https://image.tmdb.org/t/p/original/q5vKYuUDs2DV7ucYYNrEV28vqEK.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 3" />
+      <img src="https://images.icon-icons.com/2699/PNG/512/netflix_logo_icon_170919.png" 
+           alt="Netflix logo" 
+           class="absolute top-1 left-1 w-8 h-8 opacity-80" />
+    </a>
+<!--copia y pega para agregar mas
+
+<a href="__URL___" class="relative flex-shrink-0 w-48 md:w-64">
+      <img src="__IMAGEN__" class="rounded-lg w-full object-cover aspect-video" alt="" />
+      <img src="https://images.icon-icons.com/2699/PNG/512/netflix_logo_icon_170919.png" 
+           alt="Netflix logo" 
+           class="absolute top-1 left-1 w-8 h-8 opacity-80" />
+    </a>
+	
+	-->
+
+  </div>
+</section>
 
 <section class="px-4 mt-6">
-  <h2 class="text-white text-base font-normal mb-2">Accion</h2>
+  <h2 class="text-white text-base font-normal mb-2">Disney</h2>
   <div class="flex overflow-x-auto space-x-3 scrollbar-hide pb-2">
-    <a href="https://soyestrellaoficial9.github.io/accion/" target="_blank" class="flex-shrink-0 w-48 md:w-64">
-      <img src="https://image.tmdb.org/t/p/original/8gkCeYF49PR1CCvNWaig2wyPMxz.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 1" />
+    
+    <a href="__URL___" class="relative flex-shrink-0 w-48 md:w-64">
+      <img src="https://image.tmdb.org/t/p/original/eED63NhBdNuH2WJQtWqFr2bmFGq.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 1" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Disney_Plus_logo.svg"
+           alt="Disney+ logo"
+           class="absolute top-1 left-1 w-14 h-auto opacity-80" />
     </a>
-    <a href="__URL___" target="_blank" class="flex-shrink-0 w-48 md:w-64">
-      <img src="https://image.tmdb.org/t/p/original/tbrHi96loHtTyDX0H0EJktCvPxC.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 2" />
+
+    <a href="__URL___" class="relative flex-shrink-0 w-48 md:w-64">
+      <img src="https://image.tmdb.org/t/p/original/hB6YAC3vx3pGfFrwNbeaY17thN7.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 2" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Disney_Plus_logo.svg"
+           alt="Disney+ logo"
+           class="absolute top-1 left-1 w-14 h-auto opacity-80" />
     </a>
-    <a href="__URL___" target="_blank" class="flex-shrink-0 w-48 md:w-64">
-      <img src="https://image.tmdb.org/t/p/original/35uNaXPgIDD4pjMoAuZqAYI9gQj.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 3" />
+
+    <a href="__URL___" class="relative flex-shrink-0 w-48 md:w-64">
+      <img src="https://image.tmdb.org/t/p/original/Aj0umGs0heNJ4VKtkaRQWeg6Tyx.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 3" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Disney_Plus_logo.svg"
+           alt="Disney+ logo"
+           class="absolute top-1 left-1 w-14 h-auto opacity-80" />
     </a>
+<!--copia y pega para agregar mas
+
+<a href="__URL___" class="relative flex-shrink-0 w-48 md:w-64">
+      <img src="__IMAGEN__" class="rounded-lg w-full object-cover aspect-video" alt="" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Disney_Plus_logo.svg" 
+           alt="Netflix logo" 
+           class="absolute top-1 left-1 w-8 h-8 opacity-80" />
+    </a>
+	
+	-->
   </div>
 </section>
-<section class="px-4 mt-6">
-  <h2 class="text-white text-base font-normal mb-2">infantil</h2>
-  <div class="flex overflow-x-auto space-x-3 scrollbar-hide pb-2">
-    <a href="__URL___" target="_blank" class="flex-shrink-0 w-48 md:w-64">
-      <img src="https://mcswebsites.blob.core.windows.net/1011/Event_7458/landscape_large/kayara_820_360_facebook.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 1" />
-    </a>
-    <a href="__URL___" target="_blank" class="flex-shrink-0 w-48 md:w-64">
-      <img src="https://image.tmdb.org/t/p/original/5txS0YAciBoDywxEq7rX9QaXcSv.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 2" />
-    </a>
-    <a href="__URL___" target="_blank" class="flex-shrink-0 w-48 md:w-64">
-      <img src="https://image.tmdb.org/t/p/original/jC7I0BMII4nBu71YWf5PRB9aAmv.jpg" class="rounded-lg w-full object-cover aspect-video" alt="Poster recomendado 3" />
-    </a>
+
+
   </div>
 </section>
+
 
 	<script>
   // Lista de películas locales
@@ -209,7 +251,7 @@
   <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent flex flex-col justify-end p-4">
     <h2 class="text-white text-2xl md:text-3xl font-bold mb-4">${elegida.titulo}</h2>
     <div class="flex space-x-4">
-      <a href="${elegida.url}" target="_blank" class="flex items-center bg-white text-black px-4 py-2 rounded hover:bg-gray-300 transition">
+      <a href="${elegida.url}"  class="flex items-center bg-white text-black px-4 py-2 rounded hover:bg-gray-300 transition">
         <i class="fas fa-play mr-2"></i> Ver ahora
       </a>
       <button
